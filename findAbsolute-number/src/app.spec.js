@@ -12,7 +12,7 @@ describe("testFindAbsolute1", function () {
     test("testFindAbsolute1", function () {
         var number = 1;
         var expected = 1;
-        expect(app_1.AbsoluteNumberCalculator.findAbsolute(number)).toEqual(expected);
+        expect(app_1.AbsoluteNumberCalculator.findAbsolute(number)).toBe(expected);
     });
 });
 describe("testFindAbsoluteNegative1", function () {

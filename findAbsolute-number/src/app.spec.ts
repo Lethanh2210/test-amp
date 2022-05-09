@@ -14,7 +14,7 @@ describe("testFindAbsolute1", () => {
         let number = 1;
         let expected = 1;
 
-        expect(AbsoluteNumberCalculator.findAbsolute(number)).toEqual(expected);
+        expect(AbsoluteNumberCalculator.findAbsolute(number)).toBe(expected);
     });
 });
 

@@ -48,7 +48,6 @@ export class NextDayCalculator{
             }else{
                 day = 1;
                 month = 1;
-
                 year++;}
         }else {
             if(day === this.checkDayOfMonth(month,year)){
